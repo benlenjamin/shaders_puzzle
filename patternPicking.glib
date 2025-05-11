@@ -1,0 +1,12 @@
+##OpenGL GLIB
+Perspective 70.
+LookAt 0 0 3  0 0 0  0 1 0
+
+Vertex		patternPicking.vert
+Fragment	patternPicking.frag
+Program PatternPicking					\
+		PickingColor {0. 0. 0. 0.}		
+
+Sphere
+#Torus  1.  .3  64 64
+#Teapot

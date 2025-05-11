@@ -1,0 +1,13 @@
+##OpenGL GLIB
+Perspective 70.
+LookAt 0 0 3  0 0 0  0 1 0
+
+Texture2D 5 imageBlur.bmp
+
+Vertex	imageBlur.vert
+Fragment	imageBlur.frag
+Program	ImageBlur uImageUnit 5			\
+	t <-10. 1.0 2.>			
+	
+
+Cube 1. 1. 1.

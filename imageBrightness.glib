@@ -1,0 +1,13 @@
+##OpenGL GLIB
+Perspective 70.
+LookAt 0 0 3  0 0 0  0 1 0
+
+Texture2D 5 imageBrightness.bmp
+
+Vertex	imageBrightness.vert
+Fragment	imageBrightness.frag
+Program	ImageBrightness uImageUnit 5			\
+	t <0. 1.0 2.>			
+	
+
+Cube 1. 1. 1.

@@ -1,0 +1,15 @@
+##OpenGL GLIB
+Perspective 70.
+LookAt 0 0 3  0 0 0  0 1 0
+
+Texture2D 5 imageDifferenceBefore.bmp
+Texture2D 6 imageDifferenceAfter.bmp
+
+Vertex	imageDifference.vert
+Fragment	imageDifference.frag
+Program	ImageDifference uTexUnitB 5	\
+	uTexUnitA 6			\
+	t <-1. 1.0 2.>			
+	
+
+Cube 1. 1. 1.
